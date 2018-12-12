@@ -1,0 +1,54 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary project-path
+#
+# See:
+#    https://pypi.org/project/cookiepatcher
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=project-path/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+
+    _template:                 'gh:dhetting/cookiecutter-pylibrary'
+    appveyor:                  'no'
+    c_extension_function:      'longest'
+    c_extension_module:        '_my_package'
+    c_extension_optional:      'no'
+    c_extension_support:       'no'
+    codacy:                    'no'
+    codeclimate:               'no'
+    codecov:                   'no'
+    command_line_interface:    'argparse'
+    command_line_interface_bin_name: 'my-package'
+    coveralls:                 'no'
+    distribution_name:         'my-package'
+    email:                     'dylan.hettinger@gmail.com'
+    full_name:                 'Dylan Hettinger'
+    github_username:           'dhetting'
+    landscape:                 'no'
+    license:                   'BSD 2-Clause License'
+    linter:                    'flake8'
+    package_name:              'my_package'
+    project_name:              'my_package'
+    project_short_description: 'An example package. Generated with cookiecutter-pylibrary.'
+    release_date:              'today'
+    repo_name:                 'python-my_package'
+    requiresio:                'no'
+    scrutinizer:               'no'
+    sphinx_docs:               'no'
+    sphinx_doctest:            'no'
+    sphinx_theme:              'sphinx-py3doc-enhanced-theme'
+    test_matrix_configurator:  'no'
+    test_matrix_separate_coverage: 'no'
+    test_runner:               'pytest'
+    travis:                    'no'
+    version:                   '0.1.0'
+    website:                   'https://github.com/dhetting'
+    year:                      'now'
